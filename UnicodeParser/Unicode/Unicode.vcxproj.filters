@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Comm">
+      <UniqueIdentifier>{f497a2fd-110c-49a5-b90f-858a421918ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UCD">
+      <UniqueIdentifier>{d11c645d-58c3-4b79-a22e-eaa925ce8f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Comm\Memory">
+      <UniqueIdentifier>{5aa839ef-1035-4081-96e0-614201b343e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Comm\FileIO.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\Log.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\SysTraits.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\Command.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\CharConverter.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\SharedMemory.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\Memory\MemoryAllocator.cpp">
+      <Filter>Comm\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Comm\Memory\ZoneMemory.cpp">
+      <Filter>Comm\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="NamesList.cpp">
+      <Filter>UCD</Filter>
+    </ClCompile>
+    <ClCompile Include="UniHan.cpp">
+      <Filter>UCD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Comm\FileIO.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Log.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\SysTraits.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\SysTraitsLinux.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\SysTraitsWin32.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\EnvConfig.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Command.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\CharConverter.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\SharedMemory.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\SharedMemoryLinux.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\SharedMemoryWin.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="ucdConfig.h">
+      <Filter>UCD</Filter>
+    </ClInclude>
+    <ClInclude Include="unihanConsts.h">
+      <Filter>UCD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Memory\MemoryAllocator.h">
+      <Filter>Comm\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Memory\MemoryComm.h">
+      <Filter>Comm\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Memory\ZoneAllocator.h">
+      <Filter>Comm\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Memory\ZoneContainers.h">
+      <Filter>Comm\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Memory\ZoneMemory.h">
+      <Filter>Comm\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\Memory\ZoneVault.h">
+      <Filter>Comm\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="NamesList.h">
+      <Filter>UCD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Comm\sutility.hpp">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="UniHan.h">
+      <Filter>UCD</Filter>
+    </ClInclude>
+    <ClInclude Include="UParser.h">
+      <Filter>UCD</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
